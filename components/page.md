@@ -41,7 +41,7 @@
 | contentBackground | `boolean`          | -      | 主体区域背景                    |
 | contentFullHeight | `boolean`          | false  | 主体区域是否占满整个屏幕高度    |
 | fixedHeight       | `boolean`          | false  | 固定主体区域高度                |
-
+| upwardSpace       | `number | className` | -    | 向上递归减去空闲空间的 层级 或 直到指定class为止 | 
 ### Slots
 
 **pageHeader 的 slot 都支持**
